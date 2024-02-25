@@ -31,8 +31,6 @@ keymap.set("n", "<leader>mx", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") --  go to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 
-
-
 ----------------------
 -- Plugin Keybinds
 ----------------------
@@ -58,3 +56,6 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
+
+keymap.set("n", "<leader>ss", ":update<CR>") -- mapping to restart lsp if necessary
+keymap.set("n", "<leader>qq", ":qa<CR>") -- mapping to restart lsp if necessary

@@ -109,6 +109,10 @@ return packer.startup(function(use)
 
 	use("folke/which-key.nvim")
 
+	use("lukas-reineke/indent-blankline.nvim")
+
+	use("CRAG666/betterTerm.nvim")
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
